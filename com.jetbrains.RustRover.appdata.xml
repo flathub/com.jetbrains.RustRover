@@ -24,7 +24,7 @@
   <developer_name>JetBrains s.r.o.</developer_name>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://www.jetbrains.com/rust/img/overview/Develop_applications_for_web.png</image>
+      <image type="source">https://www.jetbrains.com/rust/img/overview/screenshots/develop-for-the-web.png</image>
     </screenshot>
   </screenshots>
   <update_contact>info@appelgriebsch.com</update_contact>
