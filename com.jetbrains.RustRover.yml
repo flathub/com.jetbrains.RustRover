@@ -1,7 +1,7 @@
 app-id: com.jetbrains.RustRover
 command: rustrover
 runtime: org.freedesktop.Sdk
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 separate-locales: false
 tags:
@@ -36,9 +36,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/flathub-infra/ide-flatpak-wrapper.git
-        commit: 445fdd20b2f083fe12ac9ac61c1a30864da8a8d1
-
-  - shared-modules/libsecret/libsecret.json
+        commit: d581fd9b873acbf6fb22899aa388435f6c00f61a
 
   - name: rsync
     cleanup:
