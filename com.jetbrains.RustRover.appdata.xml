@@ -6,6 +6,7 @@
   <name>RustRover</name>
   <summary>A cross-platform IDE for Rust</summary>
   <description>
+    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.**</p>
     <p>
       RustRover is a cross-platform IDE that provides consistent experience on the Windows, macOS, and Linux operating systems.
       It also provides essential support for Python, popular web technologies
@@ -15,7 +16,6 @@
     <p>
       RustRover is free for non-commercial use. When using commercially, it is available for a free 30-day evaluation. After that period monthly and yearly subscription options exists for commercial use.
     </p>
-    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.</p>
   </description>
   <url type="bugtracker">https://youtrack.jetbrains.com/</url>
   <url type="help">https://www.jetbrains.com/help/rust/</url>
