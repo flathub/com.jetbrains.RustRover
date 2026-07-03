@@ -32,6 +32,9 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.1.4" date="2026-07-03">
+      <description></description>
+    </release>
     <release version="2026.1.1" date="2026-04-23">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-354/RustRover-2026.1.1-261.23567.140-build-Release-Notes</url>
       <url type="details">https://www.jetbrains.com/rust/whatsnew/2026-1/</url>
@@ -57,6 +60,9 @@
           <li>Support for more AI agents, including GitHub Copilot and Cursor</li>
         </ul>
       </description>
+    </release>
+    <release version="2025.3.5" date="2026-03-12">
+      <description/>
     </release>
     <release version="2025.3.5" date="2026-03-12">
       <description/>
