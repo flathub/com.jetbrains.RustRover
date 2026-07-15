@@ -30,6 +30,10 @@
       <caption>A Rust HTTP project with Rust and HTTP files opened.</caption>
     </screenshot>
   </screenshots>
+  <branding>
+    <color type="primary" scheme_preference="light">#ff5c00</color>
+    <color type="primary" scheme_preference="dark">#bf5008</color>
+  </branding>
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="2026.1.4" date="2026-07-03">
