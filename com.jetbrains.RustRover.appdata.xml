@@ -4,7 +4,7 @@
   <metadata_license>CC-BY-SA</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <name>RustRover</name>
-  <summary>A cross-platform IDE for Rust</summary>
+  <summary>Powerful IDE for Rust</summary>
   <description>
     <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.**</p>
     <p>
@@ -26,16 +26,30 @@
   </developer>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://www.jetbrains.com/_assets/rr/develop-for-the-web-DD-jeXWz.webp</image>
-      <caption>A Rust HTTP project with Rust and HTTP files opened.</caption>
+      <image>https://www.jetbrains.com/_assets/rr/develop-for-the-web-DD-jeXWz.webp</image>
+      <caption>A Rust HTTP project with Rust and HTTP files opened</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://www.jetbrains.com/_assets/rr/work-in-a-team-8-KKgrQJ.webp</image>
+      <caption>Work with Git, GitHub and GitLab directly in RustRover</caption>
     </screenshot>
   </screenshots>
+  <branding>
+    <color type="primary" scheme_preference="light">#ff5c00</color>
+    <color type="primary" scheme_preference="dark">#bf5008</color>
+  </branding>
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="2026.1.4" date="2026-07-03">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-388/RustRover-2026.1.4-261.26222.73-build-Release-Notes</url>
       <description>
-        <p>Various bug fixes. Highlights of the 2026.1 release include</p>
+        <p>Changes in 2026.1.4:</p>
+        <ul>
+          <li><code>Cargo.toml</code> files are sorted before directories</li>
+          <li>Get full module path for an item</li>
+          <li>Evaluate <code>cfg(feature = "foo")</code> in Rust stdlib</li>
+        </ul>
+        <p>Highlights of the 2026.1 release include</p>
           <ul>
             <li>Native cargo-nextest integration</li>
             <li>Call hierarchy for faster navigation</li>
@@ -55,7 +69,6 @@
     </release>
     <release version="2026.1.1" date="2026-04-23">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-354/RustRover-2026.1.1-261.23567.140-build-Release-Notes</url>
-      <url type="details">https://www.jetbrains.com/rust/whatsnew/2026-1/</url>
       <description>
         <p>Various bug fixes. Highlights of the 2026.1 release include</p>
           <ul>
