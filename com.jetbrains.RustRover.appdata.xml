@@ -19,12 +19,15 @@
   </description>
   <url type="bugtracker">https://youtrack.jetbrains.com/issues?q=project:%20RustRover</url>
   <url type="help">https://www.jetbrains.com/help/rust/</url>
-  <url type="homepage">http://www.jetbrains.com/rust/</url>
+  <url type="homepage">https://www.jetbrains.com/rust/</url>
   <launchable type="desktop-id">com.jetbrains.RustRover.desktop</launchable>
-  <developer_name>JetBrains s.r.o.</developer_name>
+  <developer id="org.jetbrains">
+    <name>JetBrains s.r.o.</name>
+  </developer>
   <screenshots>
     <screenshot type="default">
       <image type="source">https://www.jetbrains.com/_assets/rr/develop-for-the-web-DD-jeXWz.webp</image>
+      <caption>A Rust HTTP project with Rust and HTTP files opened.</caption>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
