@@ -21,7 +21,7 @@
   <url type="help">https://www.jetbrains.com/help/rust/</url>
   <url type="homepage">https://www.jetbrains.com/rust/</url>
   <launchable type="desktop-id">com.jetbrains.RustRover.desktop</launchable>
-  <developer id="org.jetbrains">
+  <developer id="com.jetbrains">
     <name>JetBrains s.r.o.</name>
   </developer>
   <screenshots>
