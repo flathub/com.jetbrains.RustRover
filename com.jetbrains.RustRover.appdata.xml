@@ -17,7 +17,7 @@
       RustRover is free for non-commercial use. When using commercially, it is available for a free 30-day evaluation. After that period monthly and yearly subscription options exists for commercial use.
     </p>
   </description>
-  <url type="bugtracker">https://youtrack.jetbrains.com/</url>
+  <url type="bugtracker">https://youtrack.jetbrains.com/issues?q=project:%20RustRover</url>
   <url type="help">https://www.jetbrains.com/help/rust/</url>
   <url type="homepage">http://www.jetbrains.com/rust/</url>
   <launchable type="desktop-id">com.jetbrains.RustRover.desktop</launchable>
