@@ -26,8 +26,12 @@
   </developer>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://www.jetbrains.com/_assets/rr/develop-for-the-web-DD-jeXWz.webp</image>
-      <caption>A Rust HTTP project with Rust and HTTP files opened.</caption>
+      <image>https://www.jetbrains.com/_assets/rr/develop-for-the-web-DD-jeXWz.webp</image>
+      <caption>A Rust HTTP project with Rust and HTTP files opened</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://www.jetbrains.com/_assets/rr/work-in-a-team-8-KKgrQJ.webp</image>
+      <caption>Work with Git, GitHub and GitLab directly in RustRover</caption>
     </screenshot>
   </screenshots>
   <branding>
@@ -65,7 +69,6 @@
     </release>
     <release version="2026.1.1" date="2026-04-23">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-354/RustRover-2026.1.1-261.23567.140-build-Release-Notes</url>
-      <url type="details">https://www.jetbrains.com/rust/whatsnew/2026-1/</url>
       <description>
         <p>Various bug fixes. Highlights of the 2026.1 release include</p>
           <ul>
