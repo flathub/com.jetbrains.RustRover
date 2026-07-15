@@ -17,21 +17,49 @@
       RustRover is free for non-commercial use. When using commercially, it is available for a free 30-day evaluation. After that period monthly and yearly subscription options exists for commercial use.
     </p>
   </description>
-  <url type="bugtracker">https://youtrack.jetbrains.com/</url>
+  <url type="bugtracker">https://youtrack.jetbrains.com/issues?q=project:%20RustRover</url>
   <url type="help">https://www.jetbrains.com/help/rust/</url>
-  <url type="homepage">http://www.jetbrains.com/rust/</url>
+  <url type="homepage">https://www.jetbrains.com/rust/</url>
   <launchable type="desktop-id">com.jetbrains.RustRover.desktop</launchable>
-  <developer_name>JetBrains s.r.o.</developer_name>
+  <developer id="org.jetbrains">
+    <name>JetBrains s.r.o.</name>
+  </developer>
   <screenshots>
     <screenshot type="default">
-      <image type="source">https://www.jetbrains.com/rust/img/overview/screenshots/develop-for-the-web.png</image>
+      <image type="source">https://www.jetbrains.com/_assets/rr/develop-for-the-web-DD-jeXWz.webp</image>
+      <caption>A Rust HTTP project with Rust and HTTP files opened.</caption>
     </screenshot>
   </screenshots>
-  <update_contact>info@appelgriebsch.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.1.1" date="2026-04-23">
+      <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-354/RustRover-2026.1.1-261.23567.140-build-Release-Notes</url>
+      <url type="details">https://www.jetbrains.com/rust/whatsnew/2026-1/</url>
+      <description>
+        <p>Various bug fixes. Highlights of the 2026.1 release include</p>
+          <ul>
+            <li>Native cargo-nextest integration</li>
+            <li>Call hierarchy for faster navigation</li>
+            <li>Easier access to macro expansions</li>
+            <li>Configurable visibility on module creation</li>
+            <li>Support for more AI agents, including GitHub Copilot and Cursor</li>
+          </ul>
+      </description>
+    </release>
+    <release version="2026.1" date="2026-03-30">
+      <url type="details">https://www.jetbrains.com/rust/whatsnew/2026-1/</url>
+      <description>
+        <ul>
+          <li>Native cargo-nextest integration</li>
+          <li>Call hierarchy for faster navigation</li>
+          <li>Easier access to macro expansions</li>
+          <li>Configurable visibility on module creation</li>
+          <li>Support for more AI agents, including GitHub Copilot and Cursor</li>
+        </ul>
+      </description>
+    </release>
     <release version="2025.3.5" date="2026-03-12">
-      <description></description>
+      <description/>
     </release>
     <release version="2025.3.4" date="2026-02-19">
       <description/>
