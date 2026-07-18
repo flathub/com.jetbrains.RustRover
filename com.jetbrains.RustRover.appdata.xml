@@ -6,7 +6,6 @@
   <name>RustRover</name>
   <summary>Powerful IDE for Rust</summary>
   <description>
-    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.**</p>
     <p>
       RustRover is a cross-platform IDE that provides consistent experience on the Windows, macOS, and Linux operating systems.
       It also provides essential support for Python, popular web technologies
