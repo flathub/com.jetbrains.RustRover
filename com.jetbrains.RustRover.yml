@@ -32,7 +32,7 @@ modules:
   - name: jetbrains-flatpak-wrapper
     buildsystem: meson
     config-opts:
-      - -Deditor_binary=/app/extra/rustrover/bin/rustrover
+      - -Deditor_binary=/app/bin/rustrover
       - -Deditor_title=RustRover
       - -Dprogram_name=rustrover
     sources:
@@ -67,18 +67,32 @@ modules:
   - name: RustRover
     buildsystem: simple
     build-commands:
-      - install -D apply_extra /app/bin/apply_extra
+      - cp -a RustRover-*/* ${FLATPAK_DEST}
       - install -D -m644 -t ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/ ${FLATPAK_ID}.svg
       - install -D -m644 -t ${FLATPAK_DEST}/share/applications/ ${FLATPAK_ID}.desktop
       - install -D -m644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.appdata.xml
       - cat idea.properties | tee -a ${FLATPAK_DEST}/bin/idea.properties
     sources:
-      - type: script
-        dest-filename: apply_extra
-        commands:
-          - mkdir rustrover/
-          - tar -xzf rustrover.tar.gz --directory=rustrover/ --strip-components=1
-          - rm rustrover.tar.gz
+      - type: archive
+        strip-components: 0
+        only-arches:
+          - x86_64
+        url: https://download.jetbrains.com/rustrover/RustRover-2026.1.4.tar.gz
+        sha256: f31fc03fab8a49525abf08c0f6d613d48335c55b29399673c26730a4696821cc
+        x-checker-data:
+          type: jetbrains
+          code: RR
+          is-main-source: true
+      - type: archive
+        strip-components: 0
+        only-arches:
+          - aarch64
+        url: https://download.jetbrains.com/rustrover/RustRover-2026.1.4-aarch64.tar.gz
+        sha256: 2a91778c29cb28211e117901741f19b0f3ea3fd14e5514f0455fc540b2b28754
+        x-checker-data:
+          type: jetbrains
+          code: RR
+          is-main-source: true
       - type: file
         path: com.jetbrains.RustRover.appdata.xml
       - type: file
@@ -87,25 +101,3 @@ modules:
         path: com.jetbrains.RustRover.svg
       - type: file
         path: idea.properties
-      - type: extra-data
-        filename: rustrover.tar.gz
-        sha256: f31fc03fab8a49525abf08c0f6d613d48335c55b29399673c26730a4696821cc
-        size: 1213867782
-        url: https://download.jetbrains.com/rustrover/RustRover-2026.1.4.tar.gz
-        only-arches:
-          - x86_64
-        x-checker-data:
-          type: jetbrains
-          code: RR
-          is-main-source: true
-      - type: extra-data
-        filename: rustrover.tar.gz
-        sha256: 2a91778c29cb28211e117901741f19b0f3ea3fd14e5514f0455fc540b2b28754
-        size: 1207640578
-        url: https://download.jetbrains.com/rustrover/RustRover-2026.1.4-aarch64.tar.gz
-        only-arches:
-          - aarch64
-        x-checker-data:
-          type: jetbrains
-          code: RR
-          is-main-source: true
