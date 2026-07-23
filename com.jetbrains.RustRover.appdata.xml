@@ -39,6 +39,32 @@
   </branding>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.2" date="2026-07-22">
+      <url type="details">https://blog.jetbrains.com/rust/2026/07/22/whats-new-in-rustrover-2026-2/</url>
+      <description>
+        <p>
+          RustRover 2026.2 adds endpoint discovery and route-handler navigation for axum-based projects, brings support for Ferrocene,
+          a qualified Rust toolchain, and improves your everyday experience with macros, imports, struct creation, module paths, benchmarks,
+          .env files, and split mode.
+        </p>
+        <ul>
+          <li>Faster navigation for axum and reqwest</li>
+          <li>Code insight for Ferrocene toolchains</li>
+          <li>Interactive declarative macro tester</li>
+          <li>Criterion benchmark run configurations</li>
+          <li>Smarter import cleanup for Rust code</li>
+          <li>Local variable completion for struct literals</li>
+          <li>Improved editor experience in split mode</li>
+          <li>.env file support for Rust</li>
+          <li>Ability to copy fully qualified Rust paths faster</li>
+          <li>Agent skills manager</li>
+          <li>Support for third-party providers in AI completion</li>
+          <li>GitHub Copilot built into RustRover</li>
+          <li>Faster Git conflict resolution and worktree management</li>
+          <li>Improved Keyboard navigation and Orca screen reader support</li>
+        </ul>
+      </description>
+    </release>
     <release version="2026.1.4" date="2026-07-03">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-388/RustRover-2026.1.4-261.26222.73-build-Release-Notes</url>
       <description>
@@ -60,11 +86,11 @@
     </release>
     <release version="2026.1.3" date="2026-06-09">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-380/RustRover-2026.1.3-261.25134.134-build-Release-Notes</url>
-      <description></description>
+      <description/>
     </release>
     <release version="2026.1.2" date="2026-05-18">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-370/RustRover-2026.1.2-261.24374.182-build-Release-Notes</url>
-      <description></description>
+      <description/>
     </release>
     <release version="2026.1.1" date="2026-04-23">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-354/RustRover-2026.1.1-261.23567.140-build-Release-Notes</url>
