@@ -77,8 +77,8 @@ modules:
         strip-components: 0
         only-arches:
           - x86_64
-        url: https://download.jetbrains.com/rustrover/RustRover-2026.2.tar.gz
-        sha256: c4783477bc1d95c5f2ddcff949395669ea2e577acc04435107594ba994ae96a1
+        url: https://download.jetbrains.com/rustrover/RustRover-2026.2.1.tar.gz
+        sha256: fd7baa32a6b29cf867bb8afc05ec001e1fca7408278192541611bd5d3f482f5b
         x-checker-data:
           type: jetbrains
           code: RR
@@ -87,8 +87,8 @@ modules:
         strip-components: 0
         only-arches:
           - aarch64
-        url: https://download.jetbrains.com/rustrover/RustRover-2026.2-aarch64.tar.gz
-        sha256: 594f8e78c669f5ff1090d6c0d99298c981b992deb928ebda034d374a4b240a8c
+        url: https://download.jetbrains.com/rustrover/RustRover-2026.2.1-aarch64.tar.gz
+        sha256: 33dd2ca7f0a8c9be3d57cee05fd0153fb0b4f3b1e4c6b4e8e5937823746ba4dc
         x-checker-data:
           type: jetbrains
           code: RR
