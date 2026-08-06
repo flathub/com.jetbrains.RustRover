@@ -40,7 +40,20 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="2026.2.1" date="2026-08-06">
-      <description></description>
+      <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-406/RustRover-2026.2.1-262.9437.161-build-Release-Notes</url>
+      <description>
+        <p>Changes in 2026.2.1:</p>
+        <ul>
+          <li>Fix Code insight stops working: IllegalStateException "Can't find definition for macro CfgDisabled"</li>
+          <li>Fix Cannot resolve vulkano crate's include macro when uses vulkano from git</li>
+          <li>Fix Selecting an excluded member in the Attach Project dialog deselects the root project</li>
+        </ul>
+        <p>
+          RustRover 2026.2 adds endpoint discovery and route-handler navigation for axum-based projects, brings support for Ferrocene,
+          a qualified Rust toolchain, and improves your everyday experience with macros, imports, struct creation, module paths, benchmarks,
+          .env files, and split mode.
+        </p>
+      </description>
     </release>
     <release version="2026.2" date="2026-07-22">
       <url type="details">https://blog.jetbrains.com/rust/2026/07/22/whats-new-in-rustrover-2026-2/</url>
