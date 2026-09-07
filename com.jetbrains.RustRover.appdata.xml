@@ -39,6 +39,39 @@
   </branding>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.2.2" date="2026-09-07">
+      <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-412/RustRover-2026.2.2-262.10315.167-build-Release-Notes</url>
+      <description>
+        <p>Changes in 2026.2.2:</p>
+        <ul>
+          <li>Support `min_exhaustive_patterns` (stabilized in Rust 1.82.0)</li>
+          <li>Support `macro_metavar_expr_concat` (stabilized in Rust 1.81.0)</li>
+          <li>Support `super_let` (unstable in Rust 1.88.0)</li>
+          <li>Move non-exhaustive match error from `match` to scrutinee</li>
+          <li>Improve Cargo Sync command execution logs in Sync tab of Build Tool Window</li>
+          <li>Remove command execution timeouts for rustc/rustup to prevent flaky failures and improve reliability</li>
+          <li>Fix Optimize imports action doesn't preserve correctly multiline imports</li>
+          <li>Fix wrong keywords in .toml should not be error</li>
+          <li>Fix file templates from plugin sometimes do not appear in New menu</li>
+          <li>Fix broken primitive type docs on nightly/beta</li>
+          <li>Fix cannot expand `cfg_select! {}` macro with a comma</li>
+          <li>Fix parsing error in standard library with `for&lt;a>` and `[const]`</li>
+          <li>Fix External Linter can't find crate for `test` on custom targets without std and test harness</li>
+          <li>Fix false E0432 "unresolved import" for items marked `#[rust_analyzer::completions(ignore_flyimport*)]`</li>
+          <li>Fix "failed to select a version for the requirement" error when opening the stdlib-local-copy crate</li>
+          <li>Don't commit document in RsEnterInLineCommentHandler</li>
+          <li>Solana: Add the logs and accounts interactivity in explorer, copying etc</li>
+          <li>Solana: Expanding logs is not clear when there is no room</li>
+          <li>Solana: Fix zoom breaks several items alignment / size in Solana toolwindow</li>
+          <li>Solana: Fix Anchor deploy bug</li>
+        </ul>
+        <p>
+          RustRover 2026.2 adds endpoint discovery and route-handler navigation for axum-based projects, brings support for Ferrocene,
+          a qualified Rust toolchain, and improves your everyday experience with macros, imports, struct creation, module paths, benchmarks,
+          .env files, and split mode.
+        </p>
+      </description>
+    </release>
     <release version="2026.2.1" date="2026-08-06">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-406/RustRover-2026.2.1-262.9437.161-build-Release-Notes</url>
       <description>
