@@ -9,3 +9,9 @@ Install the [Flatpak Builder](https://docs.flathub.org/docs/for-app-authors/subm
 ```sh
 flatpak run org.flatpak.Builder builddir com.jetbrains.RustRover.yml --force-clean --user --install-deps-from=flathub --install
 ```
+
+Verify the AppStream manifest with
+
+```sh
+appstreamcli validate com.jetbrains.RustRover.appdata.xml
+```
