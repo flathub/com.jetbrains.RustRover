@@ -52,8 +52,8 @@ modules:
       - --with-included-zlib
     sources:
       - type: archive
-        url: https://download.samba.org/pub/rsync/src/rsync-3.5.0.tar.gz
-        sha256: c7ffd1ef653e99540f661e47cb00b7f9cad1ee6b972399b16f93d672656e0d33
+        url: https://download.samba.org/pub/rsync/src/rsync-3.5.1.tar.gz
+        sha256: c55f9c9dc10fb8bec397b399a0fdded53cc9a2d8e30891bb0d63724d25c37bef
         x-checker-data:
           project-id: 4217
           stable-only: true
@@ -77,8 +77,8 @@ modules:
         strip-components: 0
         only-arches:
           - x86_64
-        url: https://download.jetbrains.com/rustrover/RustRover-2026.2.2.tar.gz
-        sha256: d2d7bbc14f1fcb8fa701646d0123f71c521597d2f37072d2072577b803fd041a
+        url: https://download.jetbrains.com/rustrover/RustRover-2026.2.3.tar.gz
+        sha256: fac0d50307301ecdb69998feeb338f1287a96e9c02d205165ec4e1d8c0ed40a6
         x-checker-data:
           type: jetbrains
           code: RR
@@ -87,8 +87,8 @@ modules:
         strip-components: 0
         only-arches:
           - aarch64
-        url: https://download.jetbrains.com/rustrover/RustRover-2026.2.2-aarch64.tar.gz
-        sha256: 8ed7c82ad03a8af414458bf1bb42117952c6e60b4781abd201c6ce3fba8d9574
+        url: https://download.jetbrains.com/rustrover/RustRover-2026.2.3-aarch64.tar.gz
+        sha256: 922f8b280f15068eabbcd731e7f2059980d827530f7ef0b44efc0a5911bf6238
         x-checker-data:
           type: jetbrains
           code: RR

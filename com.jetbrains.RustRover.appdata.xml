@@ -39,6 +39,9 @@
   </branding>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.2.3" date="2026-09-17">
+      <description></description>
+    </release>
     <release version="2026.2.2" date="2026-09-07">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-412/RustRover-2026.2.2-262.10315.167-build-Release-Notes</url>
       <description>
@@ -55,7 +58,7 @@
           <li>Fix file templates from plugin sometimes do not appear in New menu</li>
           <li>Fix broken primitive type docs on nightly/beta</li>
           <li>Fix cannot expand `cfg_select! {}` macro with a comma</li>
-          <li>Fix parsing error in standard library with `for&lt;a>` and `[const]`</li>
+          <li>Fix parsing error in standard library with `for&lt;a&gt;` and `[const]`</li>
           <li>Fix External Linter can't find crate for `test` on custom targets without std and test harness</li>
           <li>Fix false E0432 "unresolved import" for items marked `#[rust_analyzer::completions(ignore_flyimport*)]`</li>
           <li>Fix "failed to select a version for the requirement" error when opening the stdlib-local-copy crate</li>
