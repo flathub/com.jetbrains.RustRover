@@ -40,7 +40,22 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="2026.2.3" date="2026-09-17">
-      <description></description>
+      <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-414/RustRover-2026.2.3-262.10968.75-build-Release-Notes</url>
+      <description>
+        <p>Changes in 2026.2.3:</p>
+        <ul>
+          <li>Fix false positive [E0382]: value used after move in pattern binding with @</li>
+          <li>Fix RustRover ignores settings 'use rustfmt instead...' when 'optimize imports' enabled during formatting on save</li>
+          <li>Fix "Optimize imports" shredders code in a Slint project</li>
+          <li>Fix Rust plugin cannot be loaded without terminal plugin</li>
+          <li>Fix FP multi-resolved associated const chained from an assoc type with 2 bounds of the same trait</li>
+        </ul>
+        <p>
+          RustRover 2026.2 adds endpoint discovery and route-handler navigation for axum-based projects, brings support for Ferrocene,
+          a qualified Rust toolchain, and improves your everyday experience with macros, imports, struct creation, module paths, benchmarks,
+          .env files, and split mode.
+        </p>
+      </description>
     </release>
     <release version="2026.2.2" date="2026-09-07">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-412/RustRover-2026.2.2-262.10315.167-build-Release-Notes</url>
