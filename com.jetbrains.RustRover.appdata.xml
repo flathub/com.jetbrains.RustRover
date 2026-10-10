@@ -39,6 +39,21 @@
   </branding>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.2.4" date="2026-10-08">
+      <description>
+        <p>Changes in 2026.2.4:</p>
+        <ul>
+          <li>Feature: New "Copy Reference" action to copy fully qualified module path</li>
+          <li>Fix: Evaluating <code>cfg(feature = "foo")</code> and <code>#[cfg(not(feature = "foo"))]</code> in Rust stdlib</li>
+          <li>Fix: In "Attach Cargo projects" popup, Cargo.toml files should be sorted before directories</li>
+        </ul>
+        <p>
+          RustRover 2026.2 adds endpoint discovery and route-handler navigation for axum-based projects, brings support for Ferrocene,
+          a qualified Rust toolchain, and improves your everyday experience with macros, imports, struct creation, module paths, benchmarks,
+          .env files, and split mode.
+        </p>
+      </description>
+    </release>
     <release version="2026.2.3" date="2026-09-17">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-414/RustRover-2026.2.3-262.10968.75-build-Release-Notes</url>
       <description>
