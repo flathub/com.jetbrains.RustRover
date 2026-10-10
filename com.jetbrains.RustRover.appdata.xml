@@ -39,6 +39,9 @@
   </branding>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.2.4" date="2026-10-08">
+      <description></description>
+    </release>
     <release version="2026.2.3" date="2026-09-17">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-414/RustRover-2026.2.3-262.10968.75-build-Release-Notes</url>
       <description>
