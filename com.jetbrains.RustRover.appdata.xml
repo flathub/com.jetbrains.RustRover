@@ -40,12 +40,24 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="2026.2.4" date="2026-10-08">
+      <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-420/RustRover-2026.2.4-262.10968.211-build-Release-Notes</url>
       <description>
         <p>Changes in 2026.2.4:</p>
         <ul>
-          <li>Feature: New "Copy Reference" action to copy fully qualified module path</li>
-          <li>Fix: Evaluating <code>cfg(feature = "foo")</code> and <code>#[cfg(not(feature = "foo"))]</code> in Rust stdlib</li>
-          <li>Fix: In "Attach Cargo projects" popup, Cargo.toml files should be sorted before directories</li>
+          <li>Feature: Support final_associated_functions (unstable from 1.95)</li>
+          <li>Feature: Support c_variadic_arguments (stable since rust 1.99.0)</li>
+          <li>Fix: CLion profiler: jump to Rust source error "Declaration not found"</li>
+          <li>Fix: Match arms in <code>`let a = match {...}</code> are fully red when an error occurs inside</li>
+          <li>Fix: False positive "Binding is never used" when matching struct's enum field without qualification</li>
+          <li>Fix: "Add remaining patterns" quick fix should add "Some" before "None"</li>
+          <li>Fix: "Go to super" action does not navigate to <code>include!()</code> files</li>
+          <li>Fix: False positive: is_* method with <code>&amp;mut self</code> triggers wrong self convention warning</li>
+          <li>Fix: Type cannot be inferred correctly: `!` type is not unified with corresponding type variable</li>
+          <li>Fix: False positive on TOML "Duplicate table header"</li>
+          <li>Fix: False positive unresolved reference in a derive-helper attribute</li>
+          <li>Fix: Profiler: incorrect output formatting</li>
+          <li>Fix: "Meta" macro binding cannot be matched in case of <code>... = &lt;expr&gt;</code></li>
+          <li>Fix: Bevy proc macro doesn't work on Arch Linux with system Rust</li>
         </ul>
         <p>
           RustRover 2026.2 adds endpoint discovery and route-handler navigation for axum-based projects, brings support for Ferrocene,
