@@ -38,6 +38,13 @@
     <color type="primary" scheme_preference="dark">#bf5008</color>
   </branding>
   <content_rating type="oars-1.1"/>
+  <recommends>
+    <control>keyboard</control>
+    <display_length compare="ge">768</display_length>
+  </recommends>
+  <supports>
+    <control>pointing</control>
+  </supports>
   <releases>
     <release version="2026.2.4" date="2026-10-08">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-420/RustRover-2026.2.4-262.10968.211-build-Release-Notes</url>
