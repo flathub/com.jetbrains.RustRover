@@ -14,4 +14,5 @@ Verify the AppStream manifest with
 
 ```sh
 appstreamcli validate com.jetbrains.RustRover.appdata.xml
+flatpak --user run --command=flatpak-builder-lint org.flatpak.Builder appstream com.jetbrains.RustRover.appdata.xml
 ```
