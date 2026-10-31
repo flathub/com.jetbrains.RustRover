@@ -43,6 +43,19 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="2026.2.5" date="2026-10-30">
+    <url type="details">https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/</url>
+    <description>
+      <p>Changes in 2026.2.5:</p>
+      <ul>
+        <li>
+          Removes the compromised eMudhra TLS certificates responsible for CVE-2026-91403 and CVE-2026-114820 from the JetBrains Runtime.
+          See the <a href="https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/">JetBrains blog post</a>.
+        </li>
+        <li>Fix: Error highlighting in completion stopped working in 261.x builds</li>
+      </ul>
+    </description>
+    </release>
     <release version="2026.2.4" date="2026-10-08">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-420/RustRover-2026.2.4-262.10968.211-build-Release-Notes</url>
       <description>
