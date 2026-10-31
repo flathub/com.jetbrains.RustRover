@@ -49,8 +49,8 @@
       <p>Changes in 2026.2.5:</p>
       <ul>
         <li>
-          Removes the compromised eMudhra TLS certificates responsible for CVE-2026-91403 and CVE-2026-114820 from the JetBrains Runtime.
-          See the <a href="https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/">JetBrains blog post</a>.
+          Security: Removes the compromised eMudhra TLS certificates responsible for CVE-2026-91403 and CVE-2026-114820 from the JetBrains Runtime.
+          See the JetBrains blog post: https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/
         </li>
         <li>Fix: Error highlighting in completion stopped working in 261.x builds</li>
       </ul>
