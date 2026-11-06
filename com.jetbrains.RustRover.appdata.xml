@@ -43,8 +43,31 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="2026.3" date="2026-11-05">
+      <url type="details">https://blog.jetbrains.com/rust/2026/11/05/new-in-rustrover-2026-3/</url>
+      <description>
+        <p>
+          RustRover 2026.3 ships with Air, a new layer for agentic development. The IDE’s code intelligence helps agents make fewer wrong turns
+          and gives you the tools to review every change before it ships. You can also read debugger views without long names getting in the way,
+          jump from profiler results to your Rust code, and bring AI agents into your debugging workflow.
+        </p>
+        <ul>
+          <li>JetBrains Air: A new layer for agentic development. Run, track, and verify multi-agent workflows inside your IDE.</li>
+          <li>Shorter Rust type and symbol names in the debugger</li>
+          <li>Improved navigation from profiler results to Rust code</li>
+          <li>AI agents can now use the RustRover debugger</li>
+          <li>Git worktrees for parallel work and easy code reviews</li>
+          <li>Remote development directly from the IDE with OpenSSH</li>
+          <li>Modern terminal features with Ghostty built in</li>
+          <li>Terminal tabs in the editor</li>
+          <li>Sound cues for IDE events and editor line marks</li>
+          <li>New plugin management UI</li>
+          <li>Automatic error and freeze reporting</li>
+        </ul>
+      </description>
+    </release>
     <release version="2026.2.5" date="2026-10-30">
-    <url type="details">https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/</url>
+    <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-426/RustRover-2026.2.5-262.11879.102-build-Release-Notes</url>
     <description>
       <p>Changes in 2026.2.5:</p>
       <ul>
