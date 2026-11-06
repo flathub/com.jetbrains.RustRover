@@ -48,7 +48,7 @@
       <description></description>
     </release>
     <release version="2026.2.5" date="2026-10-30">
-    <url type="details">https://blog.jetbrains.com/security/2026/10/compromised-emudhra-certificates-ides/</url>
+    <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-426/RustRover-2026.2.5-262.11879.102-build-Release-Notes</url>
     <description>
       <p>Changes in 2026.2.5:</p>
       <ul>
