@@ -43,6 +43,10 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="2026.3.1" date="2026-11-16">
+      <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-438</url>
+      <description></description>
+    </release>
     <release version="2026.3" date="2026-11-05">
       <url type="details">https://blog.jetbrains.com/rust/2026/11/05/new-in-rustrover-2026-3/</url>
       <description>
