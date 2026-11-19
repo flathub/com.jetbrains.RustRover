@@ -46,7 +46,7 @@
     <release version="2026.3.1" date="2026-11-16">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-438</url>
       <description>
-        <p>Changes in 2026.2.5:</p>
+        <p>Changes in 2026.3.1:</p>
         <ul>
           <li>Improve handling of multiple Cargo projects sharing common Rust code</li>
           <li>Improve memory usage of the Rust plugin</li>
@@ -58,7 +58,7 @@
           <li>Fix: Multispot highlighting reads every highlight in the file on each caret move</li>
           <li>Fix: Don't warn on functions with the <code>#[expect(deprecated)]</code> attribute</li>
           <li>Fix: "Add to Agent context" isn't available in Monolith mode</li>
-          <li>Fix:  Rust bundles in the Chinese language pack shadow the plugin's bundle translations</li>
+          <li>Fix: Rust bundles in the Chinese language pack shadow the plugin's bundle translations</li>
           <li>Fix: False negative resolving references in <code>std::mem::offset_of!</code> macro</li>
           <li>Fix: False negative "Unused Import" when using module declaration</li>
           <li>Fix: False positive "Value for associated type must be provided" when using Sized bound</li>
