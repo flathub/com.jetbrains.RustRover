@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>com.jetbrains.RustRover</id>
   <metadata_license>CC-BY-SA</metadata_license>
-  <project_license>LicenseRef-proprietary="https://www.jetbrains.com/legal/docs/toolbox/user/"</project_license>
+  <project_license>LicenseRef-proprietary=https://www.jetbrains.com/legal/docs/toolbox/user/</project_license>
   <name>RustRover</name>
   <summary>Powerful IDE for Rust</summary>
   <description>
@@ -43,6 +43,41 @@
     <control>pointing</control>
   </supports>
   <releases>
+    <release version="2026.3.1.1" date="2026-11-24">
+      <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-440</url>
+      <description>
+        <p>Changes in 2026.3.1.1:</p>
+        <ul>
+          <li>Security: A mitigation for Java4Shell (CVE-2026-114938) was added in this release</li>
+        </ul>
+        <p>Changes in 2026.3.1:</p>
+        <ul>
+          <li>Improve handling of multiple Cargo projects sharing common Rust code</li>
+          <li>Improve memory usage of the Rust plugin</li>
+          <li>Improve performance for associated items name resolution</li>
+          <li>Improve performance on "Find usage" for <code>self</code> parameter</li>
+          <li>Improve highlighter performance by looking up Rust edition-specific keywords only after cheap check</li>
+          <li>Fix: Can't run doc-tests when using nextest</li>
+          <li>Fix: Cargo project reload endlessly when second Cargo project is attached</li>
+          <li>Fix: Multispot highlighting reads every highlight in the file on each caret move</li>
+          <li>Fix: Don't warn on functions with the <code>#[expect(deprecated)]</code> attribute</li>
+          <li>Fix: "Add to Agent context" isn't available in Monolith mode</li>
+          <li>Fix: Rust bundles in the Chinese language pack shadow the plugin's bundle translations</li>
+          <li>Fix: False negative resolving references in <code>std::mem::offset_of!</code> macro</li>
+          <li>Fix: False negative "Unused Import" when using module declaration</li>
+          <li>Fix: False positive "Value for associated type must be provided" when using Sized bound</li>
+          <li>Fix: False positive "Unresolved import" in tests of dependency package marked as dev dependency</li>
+          <li>Fix: False positive "Type mismatch" when using if/else in array index</li>
+          <li>Fix: False positive "Unstable feature" in binary crate when main.rs is also a module of the library crate</li>
+          <li>Fix: False positive "Multiple definition" on importing macro and same-named value</li>
+        </ul>
+        <p>
+          RustRover 2026.3 ships with Air, a new layer for agentic development. The IDE’s code intelligence helps agents make fewer wrong turns
+          and gives you the tools to review every change before it ships. You can also read debugger views without long names getting in the way,
+          jump from profiler results to your Rust code, and bring AI agents into your debugging workflow.
+        </p>
+      </description>
+    </release>
     <release version="2026.3.1" date="2026-11-16">
       <url type="details">https://youtrack.jetbrains.com/articles/RUST-A-438</url>
       <description>
